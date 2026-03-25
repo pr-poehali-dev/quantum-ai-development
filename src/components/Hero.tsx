@@ -19,18 +19,20 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/2b159756-56d9-432d-8961-4365d5a420a9/files/c779cc36-d898-4686-ab33-140fd650374d.jpg"
+          alt="Green eco city"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-80">A1 Level English</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ECO TRANSPORT
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Good for you. Good for Earth. 🌍
         </p>
       </div>
     </div>
